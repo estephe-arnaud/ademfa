@@ -23,22 +23,8 @@ git clone https://github.com/estephe-arnaud/ademfa && cd ademfa
 # Build the docker image.
 docker build -t ademfa .
 
-# Test.
-docker run --rm ademfa --task "facial_expression_recognition" --path "./data/vggface2.jpg"
-docker run --rm ademfa --task "face_alignment" --path "./data/vggface2.jpg"
-```
-
-## Installing on Linux ##
-```sh
-# Clone repository.
-git clone https://github.com/estephe-arnaud/ademfa && cd ademfa
-
-# Install environment.
-conda env create -f ./environment.yml python=3.8.5
-conda activate ademfa
-
-# Download model weights.
-wget --no-check-certificate "https://cloud.isir.upmc.fr/owncloud/index.php/s/M00y5MDWOOwtWBO/download" && tar -xvJf ./download && rm ./download
+# Start an interactive bash session.
+docker run -it ademfa bash
 ```
 
 ## Images ##
