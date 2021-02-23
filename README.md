@@ -9,17 +9,29 @@ Code associated with following papers:
 
 ## Environment ##
 
-Ubuntu 20.04. \
 Python 3.8.5 \
 TensorFlow 2.4. \
 OpenCV 4.4. \
 Face detection using Viola-Jones algorithm.
 
+## Docker ##
+
 ```sh
 # Clone repository.
-ADEMFA_DIR="$HOME/ademfa"
-git clone https://github.com/estephe-arnaud/ademfa $ADEMFA_DIR
-cd $ADEMFA_DIR
+git clone https://github.com/estephe-arnaud/ademfa && cd ademfa
+
+# Build the docker image.
+docker build -t ademfa .
+
+# Test.
+docker run --rm ademfa --task "facial_expression_recognition" --path "./data/vggface2.jpg"
+docker run --rm ademfa --task "face_alignment" --path "./data/vggface2.jpg"
+```
+
+## Installing on Linux ##
+```sh
+# Clone repository.
+git clone https://github.com/estephe-arnaud/ademfa && cd ademfa
 
 # Install environment.
 conda env create -f ./environment.yml python=3.8.5
@@ -28,7 +40,6 @@ conda activate ademfa
 # Download model weights.
 wget --no-check-certificate "https://cloud.isir.upmc.fr/owncloud/index.php/s/M00y5MDWOOwtWBO/download" && tar -xvJf ./download && rm ./download
 ```
-
 
 ## Images ##
 ```sh
