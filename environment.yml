@@ -113,4 +113,4 @@ dependencies:
     - traitlets==5.0.5
     - typing-extensions==3.7.4.3
     - wcwidth==0.2.5
-prefix: /home/earnaud/miniconda3/envs/ademfa
+prefix: /home/estephe-arnaud/miniconda3/envs/ademfa
