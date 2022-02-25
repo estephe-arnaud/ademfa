@@ -3,7 +3,7 @@
 ![plot](./data/ademfa.png)
 
 Code associated with following papers:
-* [E. Arnaud, A. Dapogny, and K. Bailly, ”THIN: THrowable Information Networks and Application for Facial Expression Recognition In The Wild”, under review for <em>IEEE Transactions on Image Processing (TIP)</em>, 2021.](https://arxiv.org/pdf/2010.07614.pdf) 
+* [E. Arnaud, A. Dapogny, and K. Bailly, ”THIN: THrowable Information Networks and Application for Facial Expression Recognition In The Wild”, <em>IEEE Transactions on Affective Computing (TAC)</em>, 2022.](https://arxiv.org/pdf/2010.07614.pdf) 
 * [E. Arnaud, A. Dapogny, K. Bailly. Tree-gated Deep Mixture-of-Experts For Pose-robust Face Alignment. <em>IEEE Transactions on Biometrics, Behavior, and Identity Science (TBIOM)</em>, 2019.](https://arxiv.org/pdf/1910.09450.pdf) 
 * [E. Arnaud, A. Dapogny, K. Bailly. Tree-gated Deep Regressor Ensemble For Face Alignment In The Wild. <em>IEEE International Conference on Automatic Face and Gesture Recognition (FG)</em>, 2019.](https://arxiv.org/pdf/1907.03248.pdf) 
 
